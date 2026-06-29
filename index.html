@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/Happy-Tools-Deploy/icon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/Happy-Tools-Deploy/favicon-32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/Happy-Tools-Deploy/apple-touch-icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#0a0a0a" />
+    <title>Happy Tools</title>
+    <script>
+      // Apply saved theme before paint to avoid a flash.
+      try {
+        if (localStorage.getItem('ht-theme') === 'dark') {
+          document.documentElement.classList.add('dark')
+        }
+      } catch (e) {}
+    </script>
+    <script type="module" crossorigin src="/Happy-Tools-Deploy/assets/index-676l98g6.js"></script>
+    <link rel="stylesheet" crossorigin href="/Happy-Tools-Deploy/assets/index-hVdevhAG.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
